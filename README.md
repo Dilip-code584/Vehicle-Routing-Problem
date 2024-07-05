@@ -32,15 +32,28 @@ The problem input contains a list of loads. Each load is formatted as an id foll
 
 loadNumber pickup dropoff
 1 (-50.1,80.0) (90.1,12.2)
+
+
 2 (-24.5,-19.2) (98.5,1,8)
+
+
 3 (0.3,8.9) (40.9,55.0)
+
+
 4 (5.3,-61.1) (77.8,-5.4)
+
 Output File Format
 The program writes a solution to stdout. The solution lists, on separate lines, each driver’s ordered list of loads as a schedule. An example solution to the above problem could be:
 
 [1]
+
+
 [4,2]
+
+
 [3]
+
+
 This solution means one driver does load 1, another driver does load 4 followed by load 2, and a final driver does load 3.
 
 References
