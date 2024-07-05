@@ -1,4 +1,6 @@
 VRP Solver
+
+
 This program is a solution to the Vehicle Routing Problem for Pickup and Delivery (VRPPD) with constraint on distance travelled by each driver. It efficiently assigns loads to drivers while minimizing total distance travelled.
 
 Each load has a pickup location and a dropoff location, each specified by a Cartesian point. A driver completes a load by driving to the pickup location, picking up the load, driving to the dropoff, and dropping off the load. The time required to drive from one point to another, in minutes, is the Euclidean distance between them. That is, to drive from (x1, y1) to (x2, y2) takes sqrt((x2 - x1)^2 + (y2 - y1)^2) minutes.
