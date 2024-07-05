@@ -15,12 +15,11 @@ totalCost = 500 * numberOfDrivers + totalNumberOfDrivenMinutes
 
 
 Installation
-git clone https://github.com/heet9022/Vehicle-Routing-Problem.git
-cd Vehicle-Routing-Problem
+git clone https://github.com/Dilip-code584/Vehicle-Routing-Problem.git
+
 Usage
 python3 solution.py <input_file_path>
-Evaluation
-python3 evaluateShared.py --cmd "python3 solution.py" --problemDir "Training Problems"
+
 Input File Format
 The problem input contains a list of loads. Each load is formatted as an id followed by pickup and dropoff locations in (x,y) floating point coordinates. An example input with four loads is
 
