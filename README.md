@@ -17,12 +17,17 @@ totalCost = 500 * numberOfDrivers + totalNumberOfDrivenMinutes
 
 
 Installation
+
+
 git clone https://github.com/Dilip-code584/Vehicle-Routing-Problem.git
 
 Usage
+
+
 python3 solution.py <input_file_path>
 
 Input File Format
+
 The problem input contains a list of loads. Each load is formatted as an id followed by pickup and dropoff locations in (x,y) floating point coordinates. An example input with four loads is
 
 loadNumber pickup dropoff
